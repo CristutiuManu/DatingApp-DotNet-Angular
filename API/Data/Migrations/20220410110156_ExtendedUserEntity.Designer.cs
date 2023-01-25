@@ -31,7 +31,7 @@ namespace API.Data.Migrations
                     b.Property<string>("Country")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("Create")
+                    b.Property<DateTime>("Created")
                         .HasColumnType("TEXT");
 
                     b.Property<DateTime>("DateOfBirth")
