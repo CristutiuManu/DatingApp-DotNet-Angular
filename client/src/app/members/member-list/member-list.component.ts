@@ -1,12 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Member } from 'src/app/_models/member';
 import { Pagination } from 'src/app/_models/pagination';
 import { MembersService } from '../../_services/members.service';
 import { UserParams } from '../../_models/userParams';
-import { User } from '../../_models/user';
-import { AccountService } from '../../_services/account.service';
-import { take } from 'rxjs/operators';
 
 @Component({
   selector: 'app-member-list',
