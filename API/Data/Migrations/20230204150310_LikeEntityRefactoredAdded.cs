@@ -10,8 +10,8 @@ namespace API.Data.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "AppUserAppUser");
+            // migrationBuilder.DropTable(
+            //     name: "AppUserAppUser");
 
             migrationBuilder.CreateTable(
                 name: "Likes",
