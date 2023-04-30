@@ -1,4 +1,4 @@
-# fly.toml app configuration file generated for datingappmanu on 2023-04-30T23:04:04+03:00
+# fly.toml app configuration file generated for datingappmanu on 2023-04-30T23:57:09+03:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
@@ -19,10 +19,3 @@ primary_region = "otp"
   force_https = true
   auto_stop_machines = true
   auto_start_machines = true
-
-[checks]
-  [checks.alive]
-    type = "tcp"
-    interval = "15s"
-    timeout = "2s"
-    grace_period = "5s"
